@@ -1,0 +1,16 @@
+.form-container {
+  background-image: linear-gradient(lightgrey, grey);
+}
+ul {
+  list-style-type: none;
+}
+
+.even {
+  background-image: linear-gradient(lightblue, #c1e3f7);
+}
+.odd {
+  background-image: linear-gradient(#fadef7, #f1deff);
+}
+.weBuy {
+  background-color: #c1e3f7;
+}
