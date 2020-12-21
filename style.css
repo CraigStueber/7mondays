@@ -1,16 +1,48 @@
 .form-container {
-  background-image: linear-gradient(lightgrey, grey);
+  background-color: black;
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+.logo {
+  height: 20vh;
 }
 ul {
   list-style-type: none;
 }
 
-.even {
-  background-image: linear-gradient(lightblue, #c1e3f7);
+.sellToUs {
+  height: 100%;
+  background-color: #d42222;
+  color: white;
+  border-radius: 5px;
 }
-.odd {
-  background-image: linear-gradient(#fadef7, #f1deff);
+.sellToUs:hover {
+  background-color: #db1212;
+  color: white;
 }
 .weBuy {
-  background-color: #c1e3f7;
+  background-color: black;
+  color: white;
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+.call {
+  vertical-align: middle;
+}
+body {
+  background-image: url('boardedup.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+.textblock {
+  background-color: rgba(12, 13, 13, 0.4);
+}
+.header {
+  color: black;
 }
