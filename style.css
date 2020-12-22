@@ -1,6 +1,6 @@
 .form-container {
-  background-color: black;
-  color: white;
+  background-color: #3b8beb;
+  color: #e7e3d4;
 }
 img {
   max-width: 100%;
@@ -14,21 +14,23 @@ ul {
 
 .sellToUs {
   height: 100%;
-  background-color: #d42222;
-  color: white;
+  background-color: #3b8beb;
+  color: #e7e3d4;
   border-radius: 5px;
 }
 .sellToUs:hover {
-  background-color: #db1212;
-  color: white;
+  background-color: #e7e3d4;
+  color: #3b8beb;
+  outline: 2px solid #3b8beb;
+  outline-offset: -0.5rem;
 }
 .weBuy {
-  background-color: black;
-  color: white;
+  background-color: rgb(136, 175, 232);
+  color: rgb(0, 5, 107);
 }
 .footer {
-  background-color: black;
-  color: white;
+  background-color: #3b8beb;
+  color: #e7e3d4;
 }
 .call {
   vertical-align: middle;
@@ -38,11 +40,35 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: white;
+  color: #e7e3d4;
+  font-family: 'Roboto', sans-serif;
 }
 .textblock {
   background-color: rgba(12, 13, 13, 0.4);
 }
 .header {
   color: black;
+}
+.headline {
+  color: rgb(0, 5, 107);
+}
+.btn-color {
+  background-color: rgb(240, 0, 0);
+  color: #e7e3d4;
+}
+.btn-color:hover {
+  color: rgb(240, 0, 0);
+  background-color: #e7e3d4;
+}
+* {
+  font-size: 18px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.number {
+  color: #e7e3d4;
+  background-color: darkblue;
+  border-radius: 50px;
 }
