@@ -2,14 +2,12 @@
   background-color: #3b8beb;
   color: #e7e3d4;
 }
+
 img {
   max-width: 100%;
 }
 .logo {
   height: 20vh;
-}
-ul {
-  list-style-type: none;
 }
 
 .sellToUs {
@@ -18,6 +16,7 @@ ul {
   color: #e7e3d4;
   border-radius: 5px;
 }
+
 .sellToUs:hover {
   background-color: #e7e3d4;
   color: #3b8beb;
@@ -25,7 +24,7 @@ ul {
   outline-offset: -0.5rem;
 }
 .weBuy {
-  background-color: rgb(136, 175, 232);
+  background-color: white;
   color: rgb(0, 5, 107);
 }
 .footer {
@@ -36,22 +35,39 @@ ul {
   vertical-align: middle;
 }
 body {
-  background-image: url('boardedup.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #e7e3d4;
-  font-family: 'Roboto', sans-serif;
+  background-color: #f1f1edaf;
+
+  color: rgb(0, 5, 107);
 }
-.textblock {
-  background-color: rgba(12, 13, 13, 0.4);
-}
-.header {
-  color: black;
+.how {
+  list-style-type: none;
 }
 .headline {
   color: rgb(0, 5, 107);
 }
+@media only screen and (min-width: 992px) {
+  body {
+    background-image: url('boardedup.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #e7e3d4;
+  }
+  .weBuy {
+    background-color: #e7e3d4;
+  }
+  .textblock {
+    background-color: rgba(12, 13, 13, 0.4);
+  }
+  .textblock .headline {
+    color: #e7e3d4;
+  }
+}
+
+.header {
+  color: black;
+}
+
 .btn-color {
   background-color: rgb(240, 0, 0);
   color: #e7e3d4;
